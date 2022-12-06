@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html, body {
+    height: 85%;
+}
+
+h1 {
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+title{
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+}
+
+h2{
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2EDDC;
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3.4rem;
+    background-color: #BF7C63;
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.voltar {
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
+    height: 3rem;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.fonte_texto {
+    font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
+}
+
+.texto-claro{
+    color:white;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project{
+    margin: 0.7rem 0.2rem;
+    padding: 0.5rem;
+    background-color: #025959;
+    color: white;
+    border-radius: 0.7rem;
+    font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
+}
+
+/* Cinemática */
+
+.num{
+    display: flex;
+    align-items: center;
+    background-color: #025959;
+    color: white;
+    flex-grow: 2;
+    width: 2rem;
+    max-width: 3rem;
+    border-radius: 6rem;
+}
+
+.batata{
+    min-height: 100%;
+}
+
+.topicos-cinematica{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+}
+
+.titulo{
+    flex-grow: 1;
+    margin: 0 0 0 1rem;
+}
+
+.fonte_principal {
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+}
+
+/* Eletricidade */
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.preenchimento{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    justify-content: flex-start;
+
+}
+
+.fixar {
+    min-width: 5%;
+    max-width: 8%;
+}
+
+.adicionar{
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+}
+
+.search-img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+/* Formulas */
+
+.coluna_topo{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-it{
+    background-color: #025959;
+    color: white;
+    width: 9rem;
+    height: 8.5rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.area{
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+}
+
+.formula{
+    margin: 0.5rem;
+    font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
+}
+
+.cadeado{
+    align-self: center;
+}
+
+/* Index */
+.esquerda{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.index{
+    padding: 0rem;
+    max-width: 700px;
+    max-height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 90%;
+    font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
+}
+
+.arvore{
+    display: flex;
+    height: 87%;
+    position: relative;
+}
+
+.folha1{
+    position: absolute;
+    background-color: #F2EDDC;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+    top: 61%;
+    left: 67%;
+}
+
+.folha2{
+    position: absolute;
+    background-color: #F2EDDC;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+    top: 32%;
+    left: 16%;
+}
+
+.folha3{
+    position: absolute;
+    background-color: #F2EDDC;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+    top: 20%;
+    left: 58%;
+}
+
+.folha4{
+    position: absolute;
+    background-color: #F2EDDC;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+    top: 45%;
+    left: 67%;
+}
+
+.folha5{
+    position: absolute;
+    background-color: #F2EDDC;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+    top: 62%;
+    left: 14.5%;
+}
+
+/* Matemática */
+
+.project-description{
+    font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
+}
+
+.project-title{
+    margin-bottom: 0.7rem;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+}
+
+/* Matérias */
+.header-materias{
+    height: 4rem;
+}
+
+.main-materias{
+    align-items: center;
+}
+
+.materia{
+    width:75%;
+    background-color: #025959;
+    padding: 1.5rem;
+    padding-left: 2rem;
+    border-style: solid;
+    border-bottom-width: 0.1rem;
+    border-color: #164040;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
+}
+
+/* MRUV */
+.title-topic{
+    width: 70%;
+    font-size: 1.3em;
+    display: flex;
+    text-align: center;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+}
+
+.body-topic{
+    margin: 0.3rem;
+    font-size: 1.1em;
+    display: unset;
+    font-family: 'Noto Serif','Kaisei HarunoUmi', serif;
+    background-color: #F2EDDC;
+}
+
+.body-topic p{
+    margin-bottom: 0.9rem;
+    display: block;
+    text-align: justify;
+}
+
+.body-topic .formula-topic{
+    margin: 1.5rem 0rem;
+    text-align: center;
+}
+
+.body-topic .image-topic{
+    float: right;
+    width: 40%;
+    height: 40%;
+    margin: 0.5rem;
+}
+
+.oculto {
+    display: none;
+}
+
+#quantidade_formulas{
+    margin: 0rem 0.3rem;
+}
+
+.body-topic .references-topic{
+    margin-top: 2rem;
+    float: right;
+    font-size: 0.7em;
+}
+
+/* Outras */
+
+.project-description{
+    font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
+}
+
+.project-title{
+    margin-bottom: 0.7rem;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+}
+
+.search{
+    display: flex;
+    align-items:center;
+    margin-bottom: 2em;
+}
+
+/* Mecânica */
+
+.main-mecanica {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.img-mecanica {
+    padding: .5rem;
+    width: 6rem;
+}
+
+
+.footericone{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrahorizontal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
