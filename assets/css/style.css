@@ -140,7 +140,7 @@ a {
     flex-direction: column; 
     width: 100%;
     justify-content: flex-start;
-
+    margin-bottom: 1rem;
 }
 
 .fixar {
@@ -221,42 +221,47 @@ a {
 
 .folha1{
     position: absolute;
-    background-color: #F2EDDC;
+    background-color: transparent;
+    color: white;
     font-family: 'Lato', 'Noto Sans', sans-serif;
-    top: 61%;
-    left: 67%;
+    top: 65%;
+    left: 64.7%;
 }
 
 .folha2{
     position: absolute;
-    background-color: #F2EDDC;
+    background-color: transparent;
+    color: white;
     font-family: 'Lato', 'Noto Sans', sans-serif;
-    top: 32%;
-    left: 16%;
+    top: 38%;
+    left: 21%;
 }
 
 .folha3{
     position: absolute;
-    background-color: #F2EDDC;
+    background-color: transparent;
+    color: white;
     font-family: 'Lato', 'Noto Sans', sans-serif;
-    top: 20%;
-    left: 58%;
+    top: 24%;
+    left: 56.7%;
 }
 
 .folha4{
     position: absolute;
-    background-color: #F2EDDC;
+    background-color: transparent;
+    color: white;
     font-family: 'Lato', 'Noto Sans', sans-serif;
-    top: 45%;
-    left: 67%;
+    top: 50%;
+    left: 59%;
 }
 
 .folha5{
     position: absolute;
-    background-color: #F2EDDC;
+    background-color: transparent;
+    color: white;
     font-family: 'Lato', 'Noto Sans', sans-serif;
-    top: 62%;
-    left: 14.5%;
+    top: 64.8%;
+    left: 16%;
 }
 
 /* Matemática */
@@ -331,7 +336,7 @@ a {
     display: none;
 }
 
-#quantidade_formulas{
+#quantidade_formulas, #restantes{
     margin: 0rem 0.3rem;
 }
 
