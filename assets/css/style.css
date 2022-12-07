@@ -4,6 +4,10 @@ html, body {
     height: 85%;
 }
 
+p {
+    line-height: 1.4rem;
+}
+
 h1 {
     font-family: 'Lato', 'Noto Sans', sans-serif;
     font-size: 2rem;
@@ -60,6 +64,11 @@ nav {
 a {
     text-decoration: none;
     color: black;
+}
+
+strong {
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .voltar {
@@ -213,6 +222,10 @@ a {
     font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
 }
 
+.texto-index{
+    padding-bottom: 1rem;
+    text-align: center;
+}
 .arvore{
     display: flex;
     height: 87%;
@@ -323,6 +336,9 @@ a {
 .body-topic .formula-topic{
     margin: 1.5rem 0rem;
     text-align: center;
+    border: 0.3rem solid #025959;
+    border-radius: 1rem;
+    padding: 0.1rem;
 }
 
 .body-topic .image-topic{
@@ -388,4 +404,19 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+.centravertical{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.historico_nav{
+    position:absolute;
+    display: flex;
+    top: 0.8rem;
+    left: 0.8rem;
+    font-size: 0.9rem;
+    flex-direction: row;
 }

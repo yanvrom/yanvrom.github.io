@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function(event){
     }
 
     var url = window.location.href;
-    if(url.includes('index') || url.includes('mecanica') || url.includes('cinematica') || url.includes('mruv'))
+    if(url.includes('index'))
     {
         document.getElementById('home').src='assets/img/home_preenchido.png';
     }
